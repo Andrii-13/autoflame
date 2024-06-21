@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/furniture_technologies/static/css/main.5e98c12a.css",
-    "main.js": "/furniture_technologies/static/js/main.b217d23f.js",
-    "static/media/kyt.jpg": "/furniture_technologies/static/media/kyt.4120155aa3b49824a8d3.jpg",
-    "static/media/bungee-shade-v13-latin-regular.woff2": "/furniture_technologies/static/media/bungee-shade-v13-latin-regular.c450bb952257a3bfb334.woff2",
-    "static/media/Map.png": "/furniture_technologies/static/media/Map.c3710a32938abd6da8fe.png",
-    "static/media/our_contacts.jpg": "/furniture_technologies/static/media/our_contacts.39bdd4d6de9757c9f5a6.jpg",
-    "static/media/poppins-v20-latin-600.woff2": "/furniture_technologies/static/media/poppins-v20-latin-600.91145014c0350c248ed2.woff2",
-    "static/media/poppins-v20-latin-regular.woff2": "/furniture_technologies/static/media/poppins-v20-latin-regular.405055dd680fa1dcdfa2.woff2",
-    "static/media/poppins-v20-latin-500.woff2": "/furniture_technologies/static/media/poppins-v20-latin-500.08491d3f7fe7ae88ef44.woff2",
-    "static/media/logo.webp": "/furniture_technologies/static/media/logo.d433f679e6cc57c5973d.webp",
-    "index.html": "/furniture_technologies/index.html",
-    "main.5e98c12a.css.map": "/furniture_technologies/static/css/main.5e98c12a.css.map",
-    "main.b217d23f.js.map": "/furniture_technologies/static/js/main.b217d23f.js.map"
+    "main.css": "/autoflame/static/css/main.a9343f39.css",
+    "main.js": "/autoflame/static/js/main.16cccb44.js",
+    "static/media/kyt.jpg": "/autoflame/static/media/kyt.4120155aa3b49824a8d3.jpg",
+    "static/media/logo.jpg": "/autoflame/static/media/logo.40fa6f96cde7d8550546.jpg",
+    "static/media/bungee-shade-v13-latin-regular.woff2": "/autoflame/static/media/bungee-shade-v13-latin-regular.c450bb952257a3bfb334.woff2",
+    "static/media/Map.png": "/autoflame/static/media/Map.c3710a32938abd6da8fe.png",
+    "static/media/our_contacts.jpg": "/autoflame/static/media/our_contacts.39bdd4d6de9757c9f5a6.jpg",
+    "static/media/poppins-v20-latin-600.woff2": "/autoflame/static/media/poppins-v20-latin-600.91145014c0350c248ed2.woff2",
+    "static/media/poppins-v20-latin-regular.woff2": "/autoflame/static/media/poppins-v20-latin-regular.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-v20-latin-500.woff2": "/autoflame/static/media/poppins-v20-latin-500.08491d3f7fe7ae88ef44.woff2",
+    "index.html": "/autoflame/index.html",
+    "main.a9343f39.css.map": "/autoflame/static/css/main.a9343f39.css.map",
+    "main.16cccb44.js.map": "/autoflame/static/js/main.16cccb44.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e98c12a.css",
-    "static/js/main.b217d23f.js"
+    "static/css/main.a9343f39.css",
+    "static/js/main.16cccb44.js"
   ]
 }
