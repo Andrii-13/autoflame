@@ -11,8 +11,8 @@ export const Header = () => {
           <Link to="/">
             <Logo />
           </Link>
-          <Link to="/catalog">Catalog</Link>
-          <Link to="/contacts">Contacts</Link>
+          <Link to="/catalog">Каталог</Link>
+          <Link to="/contacts">Контакти</Link>
         </HeaderNav>
       </Container>
     </HeaderWrap>

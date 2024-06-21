@@ -8,7 +8,7 @@ import ourCntacts from '../../data/images/our_contacts.jpg';
 export const Contacts = () => {
   return (
     <Container>
-      <Title>Contacts</Title>
+      <Title>Контакти</Title>
       <BackgroundImg opacity="90%">
         <img src={ourCntacts} alt="construction corner" />
       </BackgroundImg>

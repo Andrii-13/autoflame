@@ -9,12 +9,16 @@ export const MainTheme = {
     // =========  Backgrounds
 
     gray: '#c0c0c0',
+    white: '#fff',
+    black: '#2a2a2a',
     overlayColor: '#e7e7e7',
 
     // =========  Fonts
     mainFontColor: '#121417',
     secondFontColor: '#8A8A89',
     blueColor: '#3470FF',
+    activColor: 'tomato',
+    hoverColor: 'rgba(255, 255, 255, 0.8)',
   },
 
   breakPoints: {

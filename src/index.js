@@ -9,7 +9,7 @@ import { GlobalStyle } from 'globalStyles/GlobalStyle';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/furniture_technologies">
+    <BrowserRouter basename="/autoflame">
       <ThemeProvider theme={MainTheme}>
         <App />
       </ThemeProvider>

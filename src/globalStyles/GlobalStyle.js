@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
 
 
    body {
-        font-family: "Poppins", sans-serif; //set main font from data/fonts and add link in main index.js
+        font-family: 'Verdana', sans-serif; //set main font from data/fonts and add link in main index.js
         font-size: 14px;
         line-height: 1.28;
         font-weight: 400;
