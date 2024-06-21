@@ -1,0 +1,62 @@
+[
+  {
+    "id": "00001",
+    "name": "profile",
+    "material": "алюміній",
+    "thickness": "0,5мм",
+    "length": "2200мм",
+    "width": "3мм",
+    "img": "/furniture_technologies/images/product/00001.jpg",
+    "works": "internal"
+  },
+  {
+    "id": "00002",
+    "name": "profile",
+    "material": "алюміній",
+    "thickness": "0,5мм",
+    "length": "2200мм",
+    "width": "3мм",
+    "img": "/furniture_technologies/images/product/00001.jpg",
+    "works": "internal"
+  },
+  {
+    "id": "00003",
+    "name": "angle",
+    "material": "алюміній",
+    "thickness": "0,5мм",
+    "length": "2200мм",
+    "width": "3мм",
+    "img": "/furniture_technologies/images/product/00001.jpg",
+    "works": "external"
+  },
+  {
+    "id": "00004",
+    "name": "lighthouse",
+    "material": "алюміній",
+    "thickness": "0,5мм",
+    "length": "2200мм",
+    "width": "3мм",
+    "img": "/furniture_technologies/images/product/00001.jpg",
+    "works": "internal"
+  },
+  {
+    "id": "00005",
+    "name": "lighthouse",
+    "material": "алюміній",
+    "thickness": "0,5мм",
+    "length": "2200мм",
+    "width": "3мм",
+    "img": "/furniture_technologies/images/product/00001.jpg",
+    "works": "external"
+  },
+  {
+    "id": "00006",
+    "name": "lighthouse",
+    "material": "алюміній",
+    "thickness": "0,5мм",
+    "length": "2200мм",
+    "width": "3мм",
+    "img": "/furniture_technologies/images/product/00001.jpg",
+    "works": "internal"
+  }
+]
