@@ -26,33 +26,33 @@ export const SwiperStyles = styled.div`
     width: 100%;
     height: 400px;
 
-    object-fit: cover;
+    object-fit: contain;
   }
 
-  /* .swiper-pagination {
+  .swiper-pagination {
     display: flex;
     justify-content: center;
     align-items: center;
-  } */
+  }
 
   .swiper-pagination-bullet {
     background-color: red;
   }
-  /* .swiper-pagination-bullet-active {
+  .swiper-pagination-bullet-active {
     width: 12px;
     height: 12px;
-  } */
+  }
 
   .swiper-pagination-bullet {
-    background-color: white; /* Колір для інших */
+    background-color: ${p => p.theme.colors.black}; /* Колір для інших */
   }
   .swiper-pagination-bullet-active {
-    background-color: white; /* Колір для активного */
+    background-color: ${p => p.theme.colors.black}; /* Колір для активного */
   }
   .swiper-pagination-bullet-neighbor {
-    background-color: white; /* Колір для сусідніх */
-    /*    width: 10px;
+    background-color: ${p => p.theme.colors.black}; /* Колір для сусідніх */
+    width: 10px;
     height: 10px;
-    opacity: 50%; */
+    opacity: 50%;
   }
 `;

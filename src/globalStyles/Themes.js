@@ -17,6 +17,7 @@ export const MainTheme = {
     mainFontColor: '#121417',
     secondFontColor: '#8A8A89',
     blueColor: '#3470FF',
+    grayColor: '#3c3f44',
     activColor: 'tomato',
     hoverColor: 'rgba(255, 255, 255, 0.8)',
   },

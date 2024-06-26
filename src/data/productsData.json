@@ -1,58 +1,12 @@
 [
   {
-    "id": "00001",
-    "name": "profile",
-    "material": "алюміній",
-    "thickness": "0,5мм",
-    "length": "2200мм",
-    "width": "3мм",
-    "img": "/furniture_technologies/images/product/00001.jpg",
-    "works": "internal"
-  },
-  {
-    "id": "00002",
-    "name": "profile",
-    "material": "алюміній",
-    "thickness": "0,5мм",
-    "length": "2200мм",
-    "width": "3мм",
-    "img": "/furniture_technologies/images/product/00001.jpg",
-    "works": "internal"
-  },
-  {
-    "id": "00003",
-    "name": "angle",
-    "material": "алюміній",
-    "thickness": "0,5мм",
-    "length": "2200мм",
-    "width": "3мм",
-    "img": "/furniture_technologies/images/product/00001.jpg",
-    "works": "external"
-  },
-  {
-    "id": "00004",
-    "name": "lighthouse",
-    "material": "алюміній",
-    "thickness": "0,5мм",
-    "length": "2200мм",
-    "width": "3мм",
-    "img": "/furniture_technologies/images/product/00001.jpg",
-    "works": "internal"
-  },
-  {
-    "id": "00005",
-    "name": "lighthouse",
-    "material": "алюміній",
-    "thickness": "0,5мм",
-    "length": "2200мм",
-    "width": "3мм",
-    "img": "/furniture_technologies/images/product/00001.jpg",
-    "works": "external"
-  },
-  {
-    "id": "00006",
-    "name": "lighthouse",
-    "material": "алюміній",
+    "id": "9025",
+    "article": "HG9025",
+    "nameEn": "Radiator stop leak",
+    "nameUa": "Герметик радіатора",
+    "exp": "5 років",
+    "producer": "Hi-Gear Products, Inc.Hudson,MA 01749, USA",
+    "descriptionUa": "Склад надійно усуває витікання тосола (антифризу) і перешкоджає їх виникненню в подальшому.",
     "thickness": "0,5мм",
     "length": "2200мм",
     "width": "3мм",

@@ -16,8 +16,7 @@ export const HeaderNav = styled.nav`
 
   a {
     color: ${p => p.theme.colors.white};
-    &:hover,
-    &:focus {
+    &:hover {
       color: ${p => p.theme.colors.hoverColor};
     }
   }

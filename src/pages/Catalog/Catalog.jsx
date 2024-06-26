@@ -50,7 +50,7 @@ export const Catalog = () => {
       />
       <BtnUpDown />
       {(data.length > 0 && <Cards data={data} />) || (
-        <Title color="green" $margintop="150px">
+        <Title color="green" margintop="150px">
           Немає даних за вашим запитом!!!
         </Title>
       )}

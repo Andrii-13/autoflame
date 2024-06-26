@@ -12,6 +12,12 @@ import 'swiper/css/pagination';
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 import { SwiperStyles } from './Slider.styled';
 
+import HgImg from 'data/images/slider/hg.jpg';
+import DwImg from 'data/images/slider/dw.jpg';
+import DdImg from 'data/images/slider/dd.jpg';
+import SmtImg from 'data/images/slider/smt.jpg';
+import ErImg from 'data/images/slider/er.jpg';
+
 export const MySlider = () => {
   const swiperRef = useRef(null);
 
@@ -51,11 +57,11 @@ export const MySlider = () => {
         ref={swiperRef}
         spaceBetween={30}
         effect={'fade'}
-        /*  autoplay={{
+        autoplay={{
           delay: 2500,
           disableOnInteraction: false,
-        }} */
-        navigation={true}
+        }}
+        //navigation={true}
         pagination={{
           dynamicBullets: true,
         }}
@@ -63,58 +69,19 @@ export const MySlider = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img
-            src="https://kartinki.pics/uploads/posts/2021-07/1625170754_1-kartinkin-com-p-fon-dlya-tvicha-krasivie-foni-1.jpg"
-            alt=""
-          />
+          <img src={HgImg} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src="https://kartinki.pics/uploads/posts/2021-07/1625170782_37-kartinkin-com-p-fon-dlya-tvicha-krasivie-foni-38.jpg"
-            alt=""
-          />
+          <img src={DwImg} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src="https://kartinki.pics/uploads/posts/2021-07/1625170834_22-kartinkin-com-p-fon-dlya-tvicha-krasivie-foni-23.jpg"
-            alt=""
-          />
+          <img src={SmtImg} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src="https://kartinki.pics/uploads/posts/2021-07/thumbs/1625170900_51-kartinkin-com-p-fon-dlya-tvicha-krasivie-foni-52.jpg"
-            alt=""
-          />
+          <img src={DdImg} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src="https://kartinki.pics/uploads/posts/2021-07/1625170898_59-kartinkin-com-p-fon-dlya-tvicha-krasivie-foni-61.jpg"
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://kartinki.pics/uploads/posts/2021-07/1625170756_14-kartinkin-com-p-fon-dlya-tvicha-krasivie-foni-15.jpg"
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://kartinki.pics/uploads/posts/2021-07/1625170818_20-kartinkin-com-p-fon-dlya-tvicha-krasivie-foni-21.jpg"
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://kartinki.pics/uploads/posts/2021-07/1625170790_39-kartinkin-com-p-fon-dlya-tvicha-krasivie-foni-40.jpg"
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://kartinki.pics/uploads/posts/2021-07/1625170838_54-kartinkin-com-p-fon-dlya-tvicha-krasivie-foni-55.jpg"
-            alt=""
-          />
+          <img src={ErImg} alt="" />
         </SwiperSlide>
       </Swiper>
     </SwiperStyles>
