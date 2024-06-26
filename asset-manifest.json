@@ -1,21 +1,29 @@
 {
   "files": {
     "main.css": "/autoflame/static/css/main.a9343f39.css",
-    "main.js": "/autoflame/static/js/main.16cccb44.js",
-    "static/media/kyt.jpg": "/autoflame/static/media/kyt.4120155aa3b49824a8d3.jpg",
+    "main.js": "/autoflame/static/js/main.676a6c2e.js",
+    "static/media/autochemistry.jpg": "/autoflame/static/media/autochemistry.36f2d7fb896db15c8623.jpg",
+    "static/media/carCosmetics.jpg": "/autoflame/static/media/carCosmetics.9a63c10d4ab01e1d2187.jpg",
+    "static/media/tools.jpg": "/autoflame/static/media/tools.c82d15c67ae6e11caeb3.jpg",
     "static/media/logo.jpg": "/autoflame/static/media/logo.40fa6f96cde7d8550546.jpg",
+    "static/media/adhesivesSealants.jpg": "/autoflame/static/media/adhesivesSealants.59604f39c283c9b2c4ed.jpg",
+    "static/media/er.jpg": "/autoflame/static/media/er.1dfa563907a553f2e389.jpg",
     "static/media/bungee-shade-v13-latin-regular.woff2": "/autoflame/static/media/bungee-shade-v13-latin-regular.c450bb952257a3bfb334.woff2",
     "static/media/Map.png": "/autoflame/static/media/Map.c3710a32938abd6da8fe.png",
+    "static/media/dw.jpg": "/autoflame/static/media/dw.ec0fc646c87f77b5ef7b.jpg",
+    "static/media/dd.jpg": "/autoflame/static/media/dd.916a70c34770ecc6cf67.jpg",
+    "static/media/smt.jpg": "/autoflame/static/media/smt.4f378488b0677cb4a8e2.jpg",
+    "static/media/hg.jpg": "/autoflame/static/media/hg.2e3cd545d9b4c1cae4e7.jpg",
     "static/media/our_contacts.jpg": "/autoflame/static/media/our_contacts.39bdd4d6de9757c9f5a6.jpg",
     "static/media/poppins-v20-latin-600.woff2": "/autoflame/static/media/poppins-v20-latin-600.91145014c0350c248ed2.woff2",
     "static/media/poppins-v20-latin-regular.woff2": "/autoflame/static/media/poppins-v20-latin-regular.405055dd680fa1dcdfa2.woff2",
     "static/media/poppins-v20-latin-500.woff2": "/autoflame/static/media/poppins-v20-latin-500.08491d3f7fe7ae88ef44.woff2",
     "index.html": "/autoflame/index.html",
     "main.a9343f39.css.map": "/autoflame/static/css/main.a9343f39.css.map",
-    "main.16cccb44.js.map": "/autoflame/static/js/main.16cccb44.js.map"
+    "main.676a6c2e.js.map": "/autoflame/static/js/main.676a6c2e.js.map"
   },
   "entrypoints": [
     "static/css/main.a9343f39.css",
-    "static/js/main.16cccb44.js"
+    "static/js/main.676a6c2e.js"
   ]
 }
