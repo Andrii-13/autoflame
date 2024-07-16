@@ -11,7 +11,7 @@ export const CategoryList = () => {
   return (
     <CategoryListStyle>
       <li>
-        <Link>
+        <Link to="/autochemistry">
           <div>
             Автохімія
             <img src={autochemistryImage} alt="autochemistry" />
@@ -19,7 +19,7 @@ export const CategoryList = () => {
         </Link>
       </li>
       <li>
-        <Link>
+        <Link to="/autocosmetics">
           <div>
             Автокосметика
             <img src={autocosmeticsImage} alt="autocosmetics" />
@@ -27,7 +27,7 @@ export const CategoryList = () => {
         </Link>
       </li>
       <li>
-        <Link>
+        <Link to="/adhesives_sealants">
           <div>
             Клея та герметики
             <img src={adhesivesSealantsImage} alt="adhesives and sealants" />
@@ -35,7 +35,7 @@ export const CategoryList = () => {
         </Link>
       </li>
       <li>
-        <Link>
+        <Link to="/tools">
           <div>
             Інструмент
             <img src={toolsImage} alt="tools" />
