@@ -17,7 +17,7 @@ export const Home = () => {
         </Title>
         <HomeContentWrap>
           <h2>Категорія товарів</h2>
-          <CategoryList></CategoryList>
+          <CategoryList />
         </HomeContentWrap>
       </Container>
     </HomeWrap>

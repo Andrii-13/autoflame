@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import { AutochemistryListStyle } from './Autochemistry.styled';
 import autochemistryData from '../../data/productHG.json';
 import { Title } from 'components/Title/Title';
 import { Container } from 'components/App/App.styled';
 import { ProductData } from 'components/CategoryList/ProductData/ProductData';
+import { CategoryListStyle } from './Autochemistry.styled';
 
 export const Autochemistry = () => {
   const [productsData, setProductsData] = useState([]);
+
+  const productsAutochemistry = productsData.filter(
+    productAutochemistry => productAutochemistry.category === 'autochemistry'
+  );
 
   useEffect(() => {
     setProductsData(autochemistryData);
@@ -17,11 +21,15 @@ export const Autochemistry = () => {
       <Title>Автохімія</Title>
       <>
         {productsData.length > 0 && (
-          <AutochemistryListStyle>
-            {productsData.map(productData => (
-              <ProductData />
+          <CategoryListStyle>
+            {productsAutochemistry.map((productData, index) => (
+              <ProductData
+                key={index}
+                productData={productData}
+                index={index}
+              />
             ))}
-          </AutochemistryListStyle>
+          </CategoryListStyle>
         )}
       </>
     </Container>
