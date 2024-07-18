@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/autoflame/static/css/main.a9343f39.css",
-    "main.js": "/autoflame/static/js/main.271f0683.js",
+    "main.js": "/autoflame/static/js/main.b1fcf174.js",
     "static/media/autochemistry.jpg": "/autoflame/static/media/autochemistry.36f2d7fb896db15c8623.jpg",
     "static/media/carCosmetics.jpg": "/autoflame/static/media/carCosmetics.9a63c10d4ab01e1d2187.jpg",
     "static/media/DD6832.png": "/autoflame/static/media/DD6832.d5b2599863f2f982d746.png",
@@ -123,6 +123,7 @@
     "static/media/DD6754.png": "/autoflame/static/media/DD6754.82f577b1def8e7e42a99.png",
     "static/media/DD6799.png": "/autoflame/static/media/DD6799.fa5162854a35f2d72548.png",
     "static/media/HG3208.png": "/autoflame/static/media/HG3208.a652d87e4ef9bd608d17.png",
+    "static/media/accesories.jpg": "/autoflame/static/media/accesories.56e35ed2a8ee965babb2.jpg",
     "static/media/DW8632.png": "/autoflame/static/media/DW8632.73783023cba2d02ba033.png",
     "static/media/DD6719.png": "/autoflame/static/media/DD6719.2db6dbb46bf9e6c72eed.png",
     "static/media/DD6840.png": "/autoflame/static/media/DD6840.48c8e0f00b0c5e029129.png",
@@ -181,11 +182,13 @@
     "static/media/HG2217.png": "/autoflame/static/media/HG2217.84e95ab93f567feeac23.png",
     "static/media/HG3206.png": "/autoflame/static/media/HG3206.c04c0415bcab65308cfc.png",
     "static/media/HG2253.png": "/autoflame/static/media/HG2253.f8e924b56b60fb510e4a.png",
+    "static/media/fuel_system.jpg": "/autoflame/static/media/fuel_system.6f113aba4c7840c9c605.jpg",
     "static/media/HG9043.png": "/autoflame/static/media/HG9043.28ce55b6f3c6bb2548db.png",
     "static/media/HG9029.png": "/autoflame/static/media/HG9029.a9e03c78dbd31ac73992.png",
     "static/media/HG3216.png": "/autoflame/static/media/HG3216.0a643f64b10c7e73e2d5.png",
     "static/media/HG3306.png": "/autoflame/static/media/HG3306.317b5c7dee01b914fd38.png",
     "static/media/G-18211.jpg": "/autoflame/static/media/G-18211.1dc4ddfbe5aa96c5b246.jpg",
+    "static/media/lubrication_system.jpg": "/autoflame/static/media/lubrication_system.732afa13142103acd224.jpg",
     "static/media/HG8977.png": "/autoflame/static/media/HG8977.0890f55bd82b5e501d5c.png",
     "static/media/HG2250.png": "/autoflame/static/media/HG2250.5d56c39b01cd53b231d6.png",
     "static/media/HG2205.png": "/autoflame/static/media/HG2205.444355b0ed674a6cc95b.png",
@@ -461,6 +464,7 @@
     "static/media/DW8257.png": "/autoflame/static/media/DW8257.e0f4620efe0727f0aaeb.png",
     "static/media/DW5248.png": "/autoflame/static/media/DW5248.e27ccfaefd58830e3253.png",
     "static/media/DW52488.png": "/autoflame/static/media/DW52488.e27ccfaefd58830e3253.png",
+    "static/media/cooling_system.webp": "/autoflame/static/media/cooling_system.caf224ddd43d8af8c0b6.webp",
     "static/media/DW5210.png": "/autoflame/static/media/DW5210.c3eb35a4c746f80a8c76.png",
     "static/media/DW8449.png": "/autoflame/static/media/DW8449.93a2dc45140ec397c982.png",
     "static/media/Map.png": "/autoflame/static/media/Map.c3710a32938abd6da8fe.png",
@@ -903,10 +907,10 @@
     "static/media/poppins-v20-latin-500.woff2": "/autoflame/static/media/poppins-v20-latin-500.08491d3f7fe7ae88ef44.woff2",
     "index.html": "/autoflame/index.html",
     "main.a9343f39.css.map": "/autoflame/static/css/main.a9343f39.css.map",
-    "main.271f0683.js.map": "/autoflame/static/js/main.271f0683.js.map"
+    "main.b1fcf174.js.map": "/autoflame/static/js/main.b1fcf174.js.map"
   },
   "entrypoints": [
     "static/css/main.a9343f39.css",
-    "static/js/main.271f0683.js"
+    "static/js/main.b1fcf174.js"
   ]
 }
