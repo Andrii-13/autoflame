@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import autochemistryData from '../../data/productHG.json';
 import { Title } from 'components/Title/Title';
 import { Container } from 'components/App/App.styled';
-import { ProductData } from 'components/CategoryList/ProductData/ProductData';
 import { CategoryListStyle } from 'pages/Autochemistry/Autochemistry.styled';
+import { ProductData } from 'components/ProductData/ProductData';
 
 export const Accessories = () => {
   const [productsData, setProductsData] = useState([]);

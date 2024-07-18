@@ -1,9 +1,9 @@
 import React from 'react';
 import { CategoryListStyle } from './CategoryList.styled';
-
 import autochemistryImage from '../../data/images/category/autochemistry.jpg';
 import autocosmeticsImage from '../../data/images/category/carCosmetics.jpg';
 import adhesivesSealantsImage from '../../data/images/category/adhesivesSealants.jpg';
+import accesoriesImage from '../../data/images/category/accesories.jpg';
 import toolsImage from '../../data/images/category/tools.jpg';
 import { Link } from 'react-router-dom';
 
@@ -38,7 +38,7 @@ export const CategoryList = () => {
         <Link to="/accessories">
           <div>
             Аксесуари
-            <img src={adhesivesSealantsImage} alt="accessories" />
+            <img src={accesoriesImage} alt="accessories" />
           </div>
         </Link>
       </li>

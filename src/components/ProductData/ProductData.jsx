@@ -4,13 +4,13 @@ import { ProductImgWrap } from 'pages/Autochemistry/Autochemistry.styled';
 
 // Створіть контекст Webpack для імпорту зображень з обома розширеннями
 const imagesPngContext = require.context(
-  '../../../data/images/productsImg',
+  '../../data/images/productsImg',
   false,
   /\.png$/
 );
 
 const imagesJpgContext = require.context(
-  '../../../data/images/productsImg',
+  '../../data/images/productsImg',
   false,
   /\.jpg$/
 );

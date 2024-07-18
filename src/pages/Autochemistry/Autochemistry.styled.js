@@ -15,7 +15,7 @@ export const CategoryListStyle = styled.ul`
 `;
 
 export const ProductImgWrap = styled.div`
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
 `;
