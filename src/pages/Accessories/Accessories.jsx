@@ -5,11 +5,11 @@ import { Container } from 'components/App/App.styled';
 import { ProductData } from 'components/CategoryList/ProductData/ProductData';
 import { CategoryListStyle } from 'pages/Autochemistry/Autochemistry.styled';
 
-export const Tools = () => {
+export const Accessories = () => {
   const [productsData, setProductsData] = useState([]);
 
   const productsAutocosmetics = productsData.filter(
-    productAutochemistry => productAutochemistry.category === 'tools'
+    productAutochemistry => productAutochemistry.category === 'accessories'
   );
 
   useEffect(() => {
@@ -18,7 +18,7 @@ export const Tools = () => {
 
   return (
     <Container>
-      <Title>Інструмент</Title>
+      <Title>Аксесуари</Title>
       <>
         {productsData.length > 0 && (
           <CategoryListStyle>

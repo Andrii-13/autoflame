@@ -6,6 +6,7 @@ import { Autochemistry } from 'pages/Autochemistry/Autochemistry';
 import { Autocosmetics } from 'pages/Autocosmetics/Autocosmetics';
 import { AdhesivesSealants } from 'pages/AdhesivesSealants/AdhesivesSealants';
 import { Tools } from 'pages/Tools/Tools';
+import { Accessories } from 'pages/Accessories/Accessories';
 
 export const App = () => {
   return (
@@ -18,6 +19,7 @@ export const App = () => {
           <Route path="/autochemistry" element={<Autochemistry />} />
           <Route path="/autocosmetics" element={<Autocosmetics />} />
           <Route path="/adhesives_sealants" element={<AdhesivesSealants />} />
+          <Route path="/accessories" element={<Accessories />} />
           <Route path="/tools" element={<Tools />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="*" element={<Home />} />

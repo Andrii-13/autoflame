@@ -35,6 +35,14 @@ export const CategoryList = () => {
         </Link>
       </li>
       <li>
+        <Link to="/accessories">
+          <div>
+            Аксесуари
+            <img src={adhesivesSealantsImage} alt="accessories" />
+          </div>
+        </Link>
+      </li>
+      <li>
         <Link to="/tools">
           <div>
             Інструмент
