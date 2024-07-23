@@ -12,11 +12,11 @@ export const Home = () => {
       <Container>
         <BtnUpDown />
         <MySlider />
-        <Title color={p => p.theme.colors.grayColor} fontsize="40px">
+        <Title color="#3c3f44" fontSize="40px">
           Автохімія, автокосметика, клея та герметики
         </Title>
+        <h2>Категорія товарів</h2>
         <HomeContentWrap>
-          <h2>Категорія товарів</h2>
           <CategoryList />
         </HomeContentWrap>
       </Container>

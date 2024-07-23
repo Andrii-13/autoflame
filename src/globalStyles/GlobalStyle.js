@@ -36,6 +36,10 @@ ul {
   margin: 0;
 }
 
+li{
+  color: inherit;
+}
+
 a{
 text-decoration: none;
 }
@@ -47,6 +51,10 @@ img {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+button{
+  background-color: inherit;
 }
 /* ================ components ================ */
 

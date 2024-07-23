@@ -12,6 +12,7 @@ export const MainTheme = {
     white: '#fff',
     black: '#2a2a2a',
     overlayColor: '#e7e7e7',
+    borderColor: '#eeeeee',
 
     // =========  Fonts
     mainFontColor: '#121417',
@@ -30,5 +31,6 @@ export const MainTheme = {
 
   boxShadow: {
     main: '0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08)',
+    menu: '0px -2px 4px rgba(46, 47, 66, 0.08), 2px 0px 4px rgba(46, 47, 66, 0.08), -2px 0px 4px rgba(46, 47, 66, 0.08)',
   },
 };
