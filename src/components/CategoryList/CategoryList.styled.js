@@ -7,6 +7,29 @@ export const CategoryListStyle = styled.ul`
   gap: 6px;
   justify-content: center;
 
+  .main-menu-item {
+    position: relative;
+  }
+
+  .main-menu-item div > span {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+
+    font-weight: 900;
+    font-size: 36px;
+    color: ${p => p.theme.colors.grayColor};
+    transform: translate(-50%, 50%);
+
+    text-align: center;
+
+    /* Білий ободок */
+    text-shadow: 2px 2px 0 white,
+      /* Зміщення по горизонталі і вертикалі */ -2px -2px 0 white,
+      /* Негативне зміщення по горизонталі і вертикалі */ 2px -2px 0 white,
+      /* Зміщення по горизонталі і протилежне вертикаллю */ -2px 2px 0 white; /* Негативне зміщення по горизонталі і вертикально */
+  }
+
   div {
     width: 300px;
     height: 300px;
@@ -30,6 +53,7 @@ export const CategoryListStyle = styled.ul`
   }
 
   .sub-menu {
+    z-index: 100;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;

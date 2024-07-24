@@ -15,7 +15,7 @@ export const CategoryList = () => {
       <li className="main-menu-item">
         <Link to="/autochemistry">
           <div>
-            Автохімія
+            <span>Автохімія</span>
             <img src={autochemistryImage} alt="autochemistry" />
           </div>
         </Link>
@@ -60,29 +60,57 @@ export const CategoryList = () => {
           <DropdownItem>Змащувальні препарати</DropdownItem>
           <DropdownItem>Кондиціонер металу</DropdownItem>
           <DropdownItem>Колеса</DropdownItem>
-          <DropdownItem>Технічні рідини</DropdownItem>
+          <DropdownItem>Технічні рідини і спеціальні препарати</DropdownItem>
         </DropdownList>
       </li>
       <li className="main-menu-item">
         <Link to="/autocosmetics">
           <div>
-            Автокосметика
+            <span>Автокосметика</span>
             <img src={autocosmeticsImage} alt="autocosmetics" />
           </div>
         </Link>
+        <DropdownList className="autocosmetics-list sub-menu">
+          <DropdownItem>
+            <span>Кузов</span>
+            <DropdownList className="sub-sub-menu">
+              <DropdownItem>Шампуні</DropdownItem>
+              <DropdownItem>Поліролі</DropdownItem>
+              <DropdownItem>Очисники</DropdownItem>
+              <DropdownItem>Антигравій</DropdownItem>
+            </DropdownList>
+          </DropdownItem>
+          <DropdownItem>Скло</DropdownItem>
+          <DropdownItem>Пластик</DropdownItem>
+          <DropdownItem>Шкіра</DropdownItem>
+          <DropdownItem>Тканина</DropdownItem>
+          <DropdownItem>Резина</DropdownItem>
+          <DropdownItem>
+            Двигун, кондиціонер, нейтралізатори запахів
+          </DropdownItem>
+        </DropdownList>
       </li>
       <li className="main-menu-item">
         <Link to="/adhesives_sealants">
           <div>
-            Клея та герметики
+            <span>Клея та герметики</span>
             <img src={adhesivesSealantsImage} alt="adhesives and sealants" />
           </div>
         </Link>
+        <DropdownList className="adhesives-list sub-menu">
+          <DropdownItem>Епоксі-адгезіви</DropdownItem>
+          <DropdownItem>Акрилові клеї</DropdownItem>
+          <DropdownItem>Силіконові герметики</DropdownItem>
+          <DropdownItem>Цианокрилатні клеї</DropdownItem>
+          <DropdownItem>Анаеробні фіксатори</DropdownItem>
+          <DropdownItem>Еластичні клеї</DropdownItem>
+          <DropdownItem>Ремонтні препарати</DropdownItem>
+        </DropdownList>
       </li>
       <li className="main-menu-item">
         <Link to="/accessories">
           <div>
-            Аксесуари
+            <span>Аксесуари</span>
             <img src={accesoriesImage} alt="accessories" />
           </div>
         </Link>
@@ -90,7 +118,7 @@ export const CategoryList = () => {
       <li className="main-menu-item">
         <Link to="/tools">
           <div>
-            Інструмент
+            <span>Інструмент</span>
             <img src={toolsImage} alt="tools" />
           </div>
         </Link>
