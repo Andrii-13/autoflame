@@ -16,7 +16,7 @@ export const DropdownItemStyle = styled.li`
     font-weight: 600;
 
     .sub-sub-menu {
-      width: fit-content;
+      width: 160px;
       color: ${p => p.theme.colors.grayColor};
       opacity: 1;
       visibility: visible;

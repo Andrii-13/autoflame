@@ -5,7 +5,7 @@ export const HomeWrap = styled.section`
 
   h2 {
     color: ${p => p.theme.colors.grayColor};
-    font-size: 32px;
+    font-size: 18px;
   }
 `;
 

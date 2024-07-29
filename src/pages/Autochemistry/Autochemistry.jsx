@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Title } from 'components/Title/Title';
 import { Container } from 'components/App/App.styled';
 import fuelSystemImage from '../../data/images/category/subcategories/fuel_system.jpg';

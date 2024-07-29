@@ -5,7 +5,7 @@ import { Title } from 'components/Title/Title';
 import { BackgroundImg } from 'components/BackgroundImg/BackgroundImg';
 import ourCntacts from '../../data/images/our_contacts.jpg';
 
-export const Contacts = () => {
+const Contacts = () => {
   return (
     <Container>
       <Title>Контакти</Title>
@@ -16,3 +16,5 @@ export const Contacts = () => {
     </Container>
   );
 };
+
+export default Contacts;

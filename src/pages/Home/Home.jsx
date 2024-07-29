@@ -6,7 +6,7 @@ import { BtnUpDown } from 'components/BtnUpDown/BtnUpDown';
 import { MySlider } from 'components/Slider/Slider';
 import { CategoryList } from 'components/CategoryList/CategoryList';
 
-export const Home = () => {
+const Home = () => {
   return (
     <HomeWrap>
       <Container>
@@ -23,3 +23,5 @@ export const Home = () => {
     </HomeWrap>
   );
 };
+
+export default Home;

@@ -7,7 +7,7 @@ import { useSearchParams } from 'react-router-dom';
 import { BtnUpDown } from 'components/BtnUpDown/BtnUpDown';
 import { selectedProduct, selectedWork } from 'helpers/catalogSelected';
 
-export const Catalog = () => {
+const Catalog = () => {
   const [data, setData] = useState([]);
   const [params, setParams] = useSearchParams();
 
@@ -57,3 +57,5 @@ export const Catalog = () => {
     </Container>
   );
 };
+
+export default Catalog;
