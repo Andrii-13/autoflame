@@ -1,9 +1,7 @@
 {
   "files": {
     "main.css": "/autoflame/static/css/main.a9343f39.css",
-    "main.js": "/autoflame/static/js/main.ea6179c1.js",
-    "static/media/autochemistry.jpg": "/autoflame/static/media/autochemistry.36f2d7fb896db15c8623.jpg",
-    "static/media/carCosmetics.jpg": "/autoflame/static/media/carCosmetics.9a63c10d4ab01e1d2187.jpg",
+    "main.js": "/autoflame/static/js/main.befc0f2a.js",
     "static/media/DD6832.png": "/autoflame/static/media/DD6832.d5b2599863f2f982d746.png",
     "static/media/HG5648.jpg": "/autoflame/static/media/HG5648.7fa3bdf35c90be738bc9.jpg",
     "static/media/DD03683.png": "/autoflame/static/media/DD03683.12d72b78b6a41d0f14bd.png",
@@ -26,7 +24,6 @@
     "static/media/DD0371.png": "/autoflame/static/media/DD0371.c7aa8793f92ad2be6b30.png",
     "static/media/HG5722.png": "/autoflame/static/media/HG5722.48c68e0c31b3bc781362.png",
     "static/media/HG57225.png": "/autoflame/static/media/HG57225.48c68e0c31b3bc781362.png",
-    "static/media/tools.jpg": "/autoflame/static/media/tools.c82d15c67ae6e11caeb3.jpg",
     "static/media/HG56494.png": "/autoflame/static/media/HG56494.07514337878ecf42aa9e.png",
     "static/media/HG6098B.png": "/autoflame/static/media/HG6098B.c5a7e34be88635da61d8.png",
     "static/media/DW8203.png": "/autoflame/static/media/DW8203.30190d32646207033547.png",
@@ -58,6 +55,7 @@
     "static/media/DD6615.png": "/autoflame/static/media/DD6615.e4326c5e4f77b119118a.png",
     "static/media/ER5GL.png": "/autoflame/static/media/ER5GL.99397b9213c73730ce07.png",
     "static/media/DW8319.png": "/autoflame/static/media/DW8319.1a508dab893f238605e0.png",
+    "static/media/autochemistry.jpg": "/autoflame/static/media/autochemistry.c8176307ff35a98ef159.jpg",
     "static/media/G-18216.png": "/autoflame/static/media/G-18216.f57b2f3ca527c8acb480.png",
     "static/media/HG3449.png": "/autoflame/static/media/HG3449.886e1f1f67c44f710b18.png",
     "static/media/DD6621.png": "/autoflame/static/media/DD6621.c2c57b330ee67b34b737.png",
@@ -80,9 +78,11 @@
     "static/media/DD6684.png": "/autoflame/static/media/DD6684.5249d18aa27f2fb2cd22.png",
     "static/media/DW8655.png": "/autoflame/static/media/DW8655.5742dac00959e19fef1d.png",
     "static/media/DD6770.png": "/autoflame/static/media/DD6770.bb83de2575402b4ff80b.png",
+    "static/media/carCosmetics.jpg": "/autoflame/static/media/carCosmetics.2edbf7b8093e8bbf637e.jpg",
     "static/media/DD6673.png": "/autoflame/static/media/DD6673.17a334d485d50f4fd2b4.png",
     "static/media/HG3429.png": "/autoflame/static/media/HG3429.2dab32e3e9cc29fc1550.png",
     "static/media/DD6692.png": "/autoflame/static/media/DD6692.a03e3288dfe83a15a62c.png",
+    "static/media/tools.jpg": "/autoflame/static/media/tools.53ea22bfa720c92a3e0e.jpg",
     "static/media/HG9072.png": "/autoflame/static/media/HG9072.42d0ba8280d30d07320e.png",
     "static/media/HG3205.png": "/autoflame/static/media/HG3205.a720664529f8e6dc8d91.png",
     "static/media/DD6705.png": "/autoflame/static/media/DD6705.a6ee6c1138af6e9eb649.png",
@@ -107,6 +107,7 @@
     "static/media/HG9041.png": "/autoflame/static/media/HG9041.6f9290c1023f13fff0ca.png",
     "static/media/HG90414.png": "/autoflame/static/media/HG90414.6f9290c1023f13fff0ca.png",
     "static/media/HG90417.png": "/autoflame/static/media/HG90417.6f9290c1023f13fff0ca.png",
+    "static/media/accesories.jpg": "/autoflame/static/media/accesories.f344729719cc2b86ea0d.jpg",
     "static/media/SMT2521.png": "/autoflame/static/media/SMT2521.879dea35309cf322dbeb.png",
     "static/media/HG3419.png": "/autoflame/static/media/HG3419.9c0756f40d47a96b87a6.png",
     "static/media/HG34195.png": "/autoflame/static/media/HG34195.9c0756f40d47a96b87a6.png",
@@ -123,7 +124,6 @@
     "static/media/DD6754.png": "/autoflame/static/media/DD6754.82f577b1def8e7e42a99.png",
     "static/media/DD6799.png": "/autoflame/static/media/DD6799.fa5162854a35f2d72548.png",
     "static/media/HG3208.png": "/autoflame/static/media/HG3208.a652d87e4ef9bd608d17.png",
-    "static/media/accesories.jpg": "/autoflame/static/media/accesories.56e35ed2a8ee965babb2.jpg",
     "static/media/DW8632.png": "/autoflame/static/media/DW8632.73783023cba2d02ba033.png",
     "static/media/DD6719.png": "/autoflame/static/media/DD6719.2db6dbb46bf9e6c72eed.png",
     "static/media/DD6840.png": "/autoflame/static/media/DD6840.48c8e0f00b0c5e029129.png",
@@ -150,6 +150,7 @@
     "static/media/HG5641.png": "/autoflame/static/media/HG5641.e761fb3a94b964178081.png",
     "static/media/DD6580.png": "/autoflame/static/media/DD6580.ebd95cd4bff36a5ad688.png",
     "static/media/HG7042.png": "/autoflame/static/media/HG7042.2290bdaf09562324e251.png",
+    "static/media/adhesivesSealants.jpg": "/autoflame/static/media/adhesivesSealants.dbb131876d3b752c5a3b.jpg",
     "static/media/HG3409.png": "/autoflame/static/media/HG3409.4955a28bdf4ad6b04bb8.png",
     "static/media/HG2214.png": "/autoflame/static/media/HG2214.c536ab0c09f1b81baf1a.png",
     "static/media/DD6841.png": "/autoflame/static/media/DD6841.8cbc3dd3572f9c6c8c0a.png",
@@ -293,7 +294,6 @@
     "static/media/HG2207.jpg": "/autoflame/static/media/HG2207.cf17c100da5a28a73b9e.jpg",
     "static/media/NX5347.png": "/autoflame/static/media/NX5347.29bb77d60496b7a74bf7.png",
     "static/media/NX5629.png": "/autoflame/static/media/NX5629.c6ccf2bd34d06708241d.png",
-    "static/media/adhesivesSealants.jpg": "/autoflame/static/media/adhesivesSealants.59604f39c283c9b2c4ed.jpg",
     "static/media/HG5644.png": "/autoflame/static/media/HG5644.3f0254af52a4e6416c2b.png",
     "static/media/HG5640.png": "/autoflame/static/media/HG5640.640230c357cfa4a6eb50.png",
     "static/media/HG5200.png": "/autoflame/static/media/HG5200.d0158f8d2db237675674.png",
@@ -907,10 +907,10 @@
     "static/media/poppins-v20-latin-500.woff2": "/autoflame/static/media/poppins-v20-latin-500.08491d3f7fe7ae88ef44.woff2",
     "index.html": "/autoflame/index.html",
     "main.a9343f39.css.map": "/autoflame/static/css/main.a9343f39.css.map",
-    "main.ea6179c1.js.map": "/autoflame/static/js/main.ea6179c1.js.map"
+    "main.befc0f2a.js.map": "/autoflame/static/js/main.befc0f2a.js.map"
   },
   "entrypoints": [
     "static/css/main.a9343f39.css",
-    "static/js/main.ea6179c1.js"
+    "static/js/main.befc0f2a.js"
   ]
 }
