@@ -6,13 +6,7 @@ import { ProductData } from 'components/ProductData/ProductData';
 import { CategoryListStyle } from 'pages/Autochemistry/Autochemistry.styled';
 import { EmptyRequestNotificationStyle } from 'EmptyRequestNotification/EmptyRequestNotification.styled';
 
-export const SubMenu = ({
-  title,
-  categoryFirstIndex,
-  categorySecondIndex,
-  categoryThirdIndex,
-  categoryFourthIndex,
-}) => {
+export const SubMenu = ({ title, ...props }) => {
   const [productsData, setProductsData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -21,23 +15,17 @@ export const SubMenu = ({
     setIsLoading(false);
   }, []);
 
-  const productsSubMenu = productsData.filter(productSubMenu => {
-    return categoryFourthIndex !== undefined
-      ? productSubMenu.category[0] === `${categoryFirstIndex}` &&
-          productSubMenu.category[1] === `${categorySecondIndex}` &&
-          productSubMenu.category[2] === `${categoryThirdIndex}` &&
-          productSubMenu.category[3] === `${categoryFourthIndex}`
-      : categoryThirdIndex !== undefined
-      ? productSubMenu.category[0] === `${categoryFirstIndex}` &&
-        productSubMenu.category[1] === `${categorySecondIndex}` &&
-        productSubMenu.category[2] === `${categoryThirdIndex}`
-      : productSubMenu.category[0] === `${categoryFirstIndex}` &&
-        productSubMenu.category[1] === `${categorySecondIndex}`;
-  });
+  const categories = Object.values(props);
 
-  useEffect(() => {
-    setProductsData(allProductData);
-  }, []);
+  const productsSubMenu = productsData.filter(productData => {
+    for (let i = 0; i < categories.length; i += 1) {
+      if (productData.category[i] !== categories[i]) {
+        return false;
+      }
+      console.log(productData);
+    }
+    return true;
+  });
 
   if (isLoading) {
     return null;

@@ -1,11 +1,22 @@
 import styled from 'styled-components';
 
 export const CategoryListStyle = styled.ul`
-  margin: 0 auto;
+  margin: 0 auto 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
   justify-content: center;
+
+  li {
+    position: relative;
+  }
+
+  .sub-menu-link {
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: ${p => p.theme.boxShadow.menu};
+    }
+  }
 
   .main-menu-item {
     position: relative;
@@ -20,8 +31,10 @@ export const CategoryListStyle = styled.ul`
 
   img {
     margin: 0 auto;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
   }
 
   .main-menu-item:hover {

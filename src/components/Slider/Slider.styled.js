@@ -24,23 +24,14 @@ export const SwiperStyles = styled.div`
   .swiper-slide img {
     display: block;
     width: 100%;
-    height: 400px;
+    height: 300px;
 
     object-fit: contain;
   }
 
-  .swiper-pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .swiper-pagination-bullet {
-    background-color: red;
-  }
   .swiper-pagination-bullet-active {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
   }
 
   .swiper-pagination-bullet {

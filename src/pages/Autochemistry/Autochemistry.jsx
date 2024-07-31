@@ -1,37 +1,38 @@
 import React from 'react';
 import { Title } from 'components/Title/Title';
 import { Container } from 'components/App/App.styled';
-import fuelSystemImage from '../../data/images/category/subcategories/fuel_system.jpg';
-import lubricationSystemImage from '../../data/images/category/subcategories/lubrication_system.jpg';
+import fuelSystemImage from '../../data/images/category/subcategories/fuel_system.webp';
+import lubricationSystemImage from '../../data/images/category/subcategories/lubrication_system.webp';
 import coolingSystemImage from '../../data/images/category/subcategories/cooling_system.webp';
 import { Link } from 'react-router-dom';
 import { CategoryListStyle } from 'components/CategoryList/CategoryList.styled';
+import { MainMenuTile } from 'components/Dropdown/MainMenuTile/MainMenuTile';
 
 export const Autochemistry = () => {
   return (
     <Container>
       <Title>Автохімія</Title>
       <CategoryListStyle>
-        <li>
+        <li className="sub-menu-link">
           <Link to="/autochemistry/fuel_system">
             <div>
-              Препарати для паливної системи
+              <MainMenuTile>Препарати для паливної системи</MainMenuTile>
               <img src={fuelSystemImage} alt="fuel system" />
             </div>
           </Link>
         </li>
-        <li>
+        <li className="sub-menu-link">
           <Link to="/autochemistry/fuel_system">
             <div>
-              Препарати для системи змащення
+              <MainMenuTile>Препарати для системи змащення</MainMenuTile>
               <img src={lubricationSystemImage} alt="lubrication system" />
             </div>
           </Link>
         </li>
-        <li>
+        <li className="sub-menu-link">
           <Link to="/autochemistry/fuel_system">
             <div>
-              Препарати для системи охолодження
+              <MainMenuTile>Препарати для системи охолодження</MainMenuTile>
               <img src={coolingSystemImage} alt="cooling system" />
             </div>
           </Link>

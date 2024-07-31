@@ -9,10 +9,6 @@ export const HomeWrap = styled.section`
   }
 `;
 
-export const VideoWrap = styled.div`
-  margin: 0 auto;
-`;
-
 export const HomeContentWrap = styled.div`
   display: flex;
   flex-direction: column;

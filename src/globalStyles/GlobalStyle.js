@@ -42,6 +42,7 @@ li{
 
 a{
 text-decoration: none;
+color: inherit;
 }
 img {
   display: block;

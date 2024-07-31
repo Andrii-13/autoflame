@@ -62,26 +62,26 @@ export const MySlider = () => {
           disableOnInteraction: false,
         }}
         //navigation={true}
-        pagination={{
+        /*      pagination={{
           dynamicBullets: true,
-        }}
+        }} */
         modules={[Autoplay, EffectFade, Navigation, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={HgImg} alt="" />
+          <img src={HgImg} alt="Hi-Gear emblem" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={DwImg} alt="" />
+          <img src={DwImg} alt="Doctor Wax emblem" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={SmtImg} alt="" />
+          <img src={SmtImg} alt="SMT emblem" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={DdImg} alt="" />
+          <img src={DdImg} alt="Done Deal emblem" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ErImg} alt="" />
+          <img src={ErImg} alt="ER emblem" />
         </SwiperSlide>
       </Swiper>
     </SwiperStyles>

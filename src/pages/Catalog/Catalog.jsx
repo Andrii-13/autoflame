@@ -49,11 +49,11 @@ const Catalog = () => {
         handleChangeWorksMui={handleChangeWorksMui}
       />
       <BtnUpDown />
-      {(data.length > 0 && <Cards data={data} />) || (
-        <Title color="green" margintop="150px">
-          Немає даних за вашим запитом!!!
-        </Title>
-      )}
+      {/* {(data.length > 0 && <Cards data={data} />) || ( */}
+      <Title color="green" margintop="150px">
+        Немає даних за вашим запитом!!!
+      </Title>
+      {/*     )} */}
     </Container>
   );
 };
