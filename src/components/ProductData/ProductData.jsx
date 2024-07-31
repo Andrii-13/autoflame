@@ -16,7 +16,7 @@ export const ProductData = ({ productData }) => {
 
   const imageSrc = images[article];
 
-  const quantitySubCategory = category.length;
+  // const quantitySubCategory = category.length;
   const productURL = `${category[0]}/${category[1]}/${category[2]}/${category[3]}/${category[4]}`;
 
   //console.log(quantitySubCategory);
