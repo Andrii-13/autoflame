@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/autoflame/static/css/main.a9343f39.css",
-    "main.js": "/autoflame/static/js/main.7c11c794.js",
+    "main.js": "/autoflame/static/js/main.daa09cab.js",
     "static/media/DD6832.png": "/autoflame/static/media/DD6832.d5b2599863f2f982d746.png",
     "static/media/HG5648.jpg": "/autoflame/static/media/HG5648.7fa3bdf35c90be738bc9.jpg",
     "static/media/DD03683.png": "/autoflame/static/media/DD03683.12d72b78b6a41d0f14bd.png",
@@ -907,10 +907,10 @@
     "static/media/poppins-v20-latin-500.woff2": "/autoflame/static/media/poppins-v20-latin-500.08491d3f7fe7ae88ef44.woff2",
     "index.html": "/autoflame/index.html",
     "main.a9343f39.css.map": "/autoflame/static/css/main.a9343f39.css.map",
-    "main.7c11c794.js.map": "/autoflame/static/js/main.7c11c794.js.map"
+    "main.daa09cab.js.map": "/autoflame/static/js/main.daa09cab.js.map"
   },
   "entrypoints": [
     "static/css/main.a9343f39.css",
-    "static/js/main.7c11c794.js"
+    "static/js/main.daa09cab.js"
   ]
 }
