@@ -2,6 +2,15 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import productsData from '../../data/productHG.json';
 import { getImgPructCard } from '../../helpers/getImgProductCard';
+import {
+  ProductItemImgStyle,
+  ProductItemInfoStyle,
+  InfoContainer,
+  InfoRow,
+  InfoLabel,
+  InfoValue,
+} from './ProductItemInfo.styled';
+import { Title } from 'components/Title/Title';
 
 export const ProductItemInfo = () => {
   const { article: id } = useParams();
@@ -19,7 +28,6 @@ export const ProductItemInfo = () => {
   }
 
   const images = getImgPructCard();
-
   const imageSrc = images[id];
 
   const {
@@ -29,25 +37,58 @@ export const ProductItemInfo = () => {
     descriptionUa,
     category,
     producer,
+    capacity,
     unit,
     application,
+    compositionUa,
   } = product;
 
   return (
-    <div style={{ display: 'flex', gap: '20px' }}>
-      <div>
-        <img src={imageSrc} alt={`Product ${article}`} />
-      </div>
-      <div>
-        <div>{article}</div>
-        <div>{name}</div>
-        <div>{brand}</div>
-        <div>{category.join(', ')}</div>
-        <div>{descriptionUa}</div>
-        <div>{producer}</div>
-        <div>{unit}</div>
-        <div>{application}</div>
-      </div>
-    </div>
+    <>
+      <Title>{name}</Title>
+      <ProductItemInfoStyle>
+        <ProductItemImgStyle>
+          <img src={imageSrc} alt={`Product ${article}`} />
+        </ProductItemImgStyle>
+        <InfoContainer>
+          <InfoRow>
+            <InfoLabel>Артикул:</InfoLabel>
+            <InfoValue>{article}</InfoValue>
+          </InfoRow>
+          <InfoRow>
+            <InfoLabel>Бренд:</InfoLabel>
+            <InfoValue>{brand}</InfoValue>
+          </InfoRow>
+          <InfoRow>
+            <InfoLabel>Категорія товару:</InfoLabel>
+            <InfoValue>{category.join(', ')}</InfoValue>
+          </InfoRow>
+          <InfoRow>
+            <InfoLabel>Опис:</InfoLabel>
+            <InfoValue>{descriptionUa}</InfoValue>
+          </InfoRow>
+          <InfoRow>
+            <InfoLabel>Виробник:</InfoLabel>
+            <InfoValue>{producer}</InfoValue>
+          </InfoRow>
+          <InfoRow>
+            <InfoLabel>Об'єм:</InfoLabel>
+            <InfoValue>{capacity}</InfoValue>
+          </InfoRow>
+          <InfoRow>
+            <InfoLabel>Одиниця виміру:</InfoLabel>
+            <InfoValue>{unit}</InfoValue>
+          </InfoRow>
+          <InfoRow>
+            <InfoLabel>Спосіб використання:</InfoLabel>
+            <InfoValue>{application}</InfoValue>
+          </InfoRow>
+          <InfoRow>
+            <InfoLabel>Склад:</InfoLabel>
+            <InfoValue>{compositionUa}</InfoValue>
+          </InfoRow>
+        </InfoContainer>
+      </ProductItemInfoStyle>
+    </>
   );
 };
