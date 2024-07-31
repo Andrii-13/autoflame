@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import productsData from '../../data/productHG.json';
 import { getImgPructCard } from '../../helpers/getImgProductCard';
-import { ProductImgWrap } from 'pages/Autochemistry/Autochemistry.styled';
 
 export const ProductItemInfo = () => {
   const { article: id } = useParams();
