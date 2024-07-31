@@ -1,6 +1,5 @@
 import React from 'react';
 import { Title } from 'components/Title/Title';
-import { Container } from 'components/App/App.styled';
 import fuelSystemImage from '../../data/images/category/subcategories/fuel_system.webp';
 import lubricationSystemImage from '../../data/images/category/subcategories/lubrication_system.webp';
 import coolingSystemImage from '../../data/images/category/subcategories/cooling_system.webp';
@@ -10,7 +9,7 @@ import { MainMenuTile } from 'components/Dropdown/MainMenuTile/MainMenuTile';
 
 export const Autochemistry = () => {
   return (
-    <Container>
+    <>
       <Title>Автохімія</Title>
       <CategoryListStyle>
         <li className="sub-menu-link">
@@ -38,6 +37,6 @@ export const Autochemistry = () => {
           </Link>
         </li>
       </CategoryListStyle>
-    </Container>
+    </>
   );
 };

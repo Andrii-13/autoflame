@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import autochemistryData from '../../data/productHG.json';
 import { Title } from 'components/Title/Title';
-import { Container } from 'components/App/App.styled';
 import { CategoryListStyle } from 'pages/Autochemistry/Autochemistry.styled';
 import { ProductData } from 'components/ProductData/ProductData';
 
@@ -17,21 +16,15 @@ export const Autocosmetics = () => {
   }, []);
 
   return (
-    <Container>
+    <>
       <Title>Автокосметика</Title>
-      <>
-        {productsData.length > 0 && (
-          <CategoryListStyle>
-            {productsAutocosmetics.map((productData, index) => (
-              <ProductData
-                key={index}
-                productData={productData}
-                index={index}
-              />
-            ))}
-          </CategoryListStyle>
-        )}
-      </>
-    </Container>
+      {productsData.length > 0 && (
+        <CategoryListStyle>
+          {productsAutocosmetics.map((productData, index) => (
+            <ProductData key={index} productData={productData} index={index} />
+          ))}
+        </CategoryListStyle>
+      )}
+    </>
   );
 };

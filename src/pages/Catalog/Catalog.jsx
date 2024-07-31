@@ -1,4 +1,3 @@
-import { Container } from 'components/App/App.styled';
 import { Cards } from 'components/Cards/Cards';
 import React, { useEffect, useState } from 'react';
 import { CatalogForm } from 'components/CatalogForm/CatalogForm';
@@ -41,7 +40,7 @@ const Catalog = () => {
   }, [work, product]);
 
   return (
-    <Container>
+    <>
       <Title>Наша продукція</Title>
       <CatalogForm
         handleChangeWorks={handleChangeWorks}
@@ -54,7 +53,7 @@ const Catalog = () => {
           Немає даних за вашим запитом!!!
         </Title>
       )}
-    </Container>
+    </>
   );
 };
 

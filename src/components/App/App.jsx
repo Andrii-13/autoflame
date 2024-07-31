@@ -9,6 +9,7 @@ import Catalog from 'pages/Catalog/Catalog';
 import Contacts from 'pages/Contacts/Contacts';
 import { Layout } from 'components/Layout/Layout';
 import { SubMenu } from 'components/CategoryList/SubMenu/SubMenu';
+import { ProductItemInfo } from 'components/ProductItemInfo/ProductItemInfo';
 
 export const App = () => {
   return (
@@ -115,6 +116,7 @@ export const App = () => {
           <Route path="accessories" element={<Accessories />} />
           <Route path="tools" element={<Tools />} />
           <Route path="contacts" element={<Contacts />} />
+          <Route path="product/:article" element={<ProductItemInfo />} />
         </Route>
         <Route path="*" element={<Home />} />
       </Routes>
