@@ -80,33 +80,97 @@ export const AutochemistryList = () => {
             <GoTriangleRight />
           </SubMenuTitleWrap>
           <DropdownList className="sub-sub-menu">
-            <DropdownItem>Промивки</DropdownItem>
-            <DropdownItem>Присадки</DropdownItem>
-            <DropdownItem>Герметики</DropdownItem>
+            <DropdownItem>
+              <Link to="/autochemistry/fuel_system/diesel/additive">
+                <SubMenuTitleWrap>
+                  <span>Промивки</span>
+                </SubMenuTitleWrap>
+              </Link>
+            </DropdownItem>
+            <DropdownItem>
+              <Link to="/autochemistry/fuel_system/diesel/additive">
+                <SubMenuTitleWrap>
+                  <span>Присадки</span>
+                </SubMenuTitleWrap>
+              </Link>
+            </DropdownItem>
+            <DropdownItem>
+              <Link to="/autochemistry/fuel_system/diesel/additive">
+                <SubMenuTitleWrap>
+                  <span>Герметики</span>
+                </SubMenuTitleWrap>
+              </Link>
+            </DropdownItem>
+          </DropdownList>
+        </DropdownItem>
+        <DropdownItem>
+          <Link to="/autochemistry/fuel_system">
+            <SubMenuTitleWrap>
+              <span>Система охолодження</span>
+              <GoTriangleRight />
+            </SubMenuTitleWrap>
+          </Link>
+          <DropdownList className="sub-sub-menu">
+            <DropdownItem>
+              <Link to="/autochemistry/fuel_system/gasoline">
+                <SubMenuTitleWrap>
+                  <span>Промивки</span>
+                </SubMenuTitleWrap>
+              </Link>
+            </DropdownItem>
+            <DropdownItem>
+              <Link to="/autochemistry/fuel_system/gasoline">
+                <SubMenuTitleWrap>
+                  <span>Герметики</span>
+                </SubMenuTitleWrap>
+              </Link>
+            </DropdownItem>
           </DropdownList>
         </DropdownItem>
         <DropdownItem>
           <SubMenuTitleWrap>
-            <span>Система охолодження</span>
-            <GoTriangleRight />
+            <span>Змащувальні препарати</span>
           </SubMenuTitleWrap>
-          <DropdownList className="sub-sub-menu">
-            <DropdownItem>Промивки</DropdownItem>
-            <DropdownItem>Герметики</DropdownItem>
-          </DropdownList>
         </DropdownItem>
-        <DropdownItem>Змащувальні препарати</DropdownItem>
-        <DropdownItem>Кондиціонери металу</DropdownItem>
+        <DropdownItem>
+          <SubMenuTitleWrap>
+            <span>Кондиціонери металу</span>
+          </SubMenuTitleWrap>
+        </DropdownItem>
         <DropdownItem>
           <SubMenuTitleWrap>
             <span>Технічні рідини і спеціальні препарати</span>
             <GoTriangleRight />
           </SubMenuTitleWrap>
           <DropdownList className="sub-sub-menu">
-            <DropdownItem>Кузов</DropdownItem>
-            <DropdownItem>Колеса</DropdownItem>
-            <DropdownItem>Кондиціонер</DropdownItem>
-            <DropdownItem>Гідропідсилювач руля</DropdownItem>
+            <DropdownItem>
+              <Link to="/autochemistry/fuel_system/gasoline">
+                <SubMenuTitleWrap>
+                  <span>Кузов</span>
+                </SubMenuTitleWrap>
+              </Link>
+            </DropdownItem>
+            <DropdownItem>
+              <Link to="/autochemistry/fuel_system/gasoline">
+                <SubMenuTitleWrap>
+                  <span>Колеса</span>
+                </SubMenuTitleWrap>
+              </Link>
+            </DropdownItem>
+            <DropdownItem>
+              <Link to="/autochemistry/fuel_system/gasoline">
+                <SubMenuTitleWrap>
+                  <span>Кондиціонер</span>
+                </SubMenuTitleWrap>
+              </Link>
+            </DropdownItem>
+            <DropdownItem>
+              <Link to="/autochemistry/fuel_system/gasoline">
+                <SubMenuTitleWrap>
+                  <span>Гідропідсилювач руля</span>
+                </SubMenuTitleWrap>
+              </Link>
+            </DropdownItem>
           </DropdownList>
         </DropdownItem>
       </DropdownList>

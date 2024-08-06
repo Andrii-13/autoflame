@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { CatalogForm } from 'components/CatalogForm/CatalogForm';
 import { Title } from 'components/Title/Title';
 import { useSearchParams } from 'react-router-dom';
-import { BtnUpDown } from 'components/BtnUpDown/BtnUpDown';
 import { selectedProduct, selectedWork } from 'helpers/catalogSelected';
 
 const Catalog = () => {
@@ -47,7 +46,6 @@ const Catalog = () => {
         handleChangeProduct={handleChangeProduct}
         handleChangeWorksMui={handleChangeWorksMui}
       />
-      <BtnUpDown />
       {(data.length > 0 && <Cards data={data} />) || (
         <Title color="green" margintop="150px">
           Немає даних за вашим запитом!!!

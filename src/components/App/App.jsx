@@ -56,7 +56,7 @@ export const App = () => {
             path="autochemistry/fuel_system/gasoline/cleaner"
             element={
               <SubMenu
-                title="Присадки для бензинових двигунів"
+                title="Очисники для бензинових двигунів"
                 categoryFirstIndex="autochemistry"
                 categorySecondIndex="fuel"
                 categoryThirdIndex="gasoline"

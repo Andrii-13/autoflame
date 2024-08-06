@@ -4,7 +4,7 @@ export const DropdownItemStyle = styled.li`
   position: relative;
   top: 0;
   left: 0px;
-  padding: 10px 20px;
+  //padding: 10px 20px;
   background-color: ${p => p.theme.colors.white};
   cursor: pointer;
   border-right: 1px solid ${p => p.theme.colors.borderColor};
