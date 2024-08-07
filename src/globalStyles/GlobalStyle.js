@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
 html{
   width: 100%;
   overflow-x: hidden;
+  background-color: white;
 }
    body {
         font-family: 'Verdana', sans-serif; //set main font from data/fonts and add link in main index.js
