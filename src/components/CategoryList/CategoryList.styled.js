@@ -12,7 +12,8 @@ export const CategoryListStyle = styled.ul`
   }
 
   .sub-menu-link {
-    &:hover {
+    &:hover,
+    &:focus {
       transform: scale(1.05);
       box-shadow: ${p => p.theme.boxShadow.menu};
     }
@@ -37,10 +38,12 @@ export const CategoryListStyle = styled.ul`
     object-fit: cover;
   }
 
-  .main-menu-item:hover {
+  .main-menu-item:hover,
+  .main-menu-item:focus {
     box-shadow: ${p => p.theme.boxShadow.menu};
   }
-  .main-menu-item:hover .sub-menu {
+  .main-menu-item:hover .sub-menu,
+  .main-menu-item:focus .sub-menu {
     opacity: 1;
     visibility: visible;
     box-shadow: ${p => p.theme.boxShadow.menu};

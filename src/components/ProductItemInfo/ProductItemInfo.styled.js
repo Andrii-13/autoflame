@@ -1,41 +1,43 @@
 import styled from 'styled-components';
 
-/* export const ProductItemInfoStyle = styled.div`
+export const ProductItemInfoStyle = styled.div`
   display: flex;
+  flex-direction: column;
+  gap: 40px;
   margin: 20px 0;
-  gap: 20px;
 
-  p > p {
-    margin-right: 10px;
+  @media screen and (min-width: ${p => p.theme.breakPoints.tabletBreakPoint}) {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 20px 0;
   }
 
-  .product-item-article {
-    font-size: 16px;
-    font-weight: 600;
-    text-align: end;
+  @media screen and (min-width: ${p => p.theme.breakPoints.desktopBreakPoint}) {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 20px 0;
   }
-`; */
+`;
 
 export const ProductItemImgStyle = styled.div`
   display: flex;
 
   img {
-    height: 100%;
+    margin: 0 auto;
+    width: 100px;
+
+    @media screen and (min-width: ${p => p.theme.breakPoints.tabletBreakPoint}) {
+      width: 160px;
+      height: fit-content;
+    }
+
+    @media screen and (min-width: ${p => p.theme.breakPoints.desktopBreakPoint}) {
+      width: fit-content;
+    }
   }
 `;
-
-export const ProductItemInfoStyle = styled.div`
-  display: flex;
-  gap: 40px;
-  margin: 20px 0;
-`;
-
-/* export const ProductItemImgStyle = styled.div`
-  img {
-    max-width: 300px;
-    height: auto;
-  }
-`; */
 
 export const InfoContainer = styled.div`
   display: flex;

@@ -24,9 +24,17 @@ export const SwiperStyles = styled.div`
   .swiper-slide img {
     display: block;
     width: 100%;
-    height: 300px;
+    height: 100px;
 
     object-fit: contain;
+
+    @media screen and (min-width: ${p => p.theme.breakPoints.tabletBreakPoint}) {
+      height: 200px;
+    }
+
+    @media screen and (min-width: ${p => p.theme.breakPoints.desktopBreakPoint}) {
+      height: 300px;
+    }
   }
 
   .swiper-pagination-bullet-active {

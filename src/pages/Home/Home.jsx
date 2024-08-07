@@ -1,20 +1,22 @@
 import React from 'react';
-import { HomeContentWrap, HomeWrap } from './Home.styled';
+import { HomeWrap, Paragraph, ParagraphsWrap } from './Home.styled';
 import { Title } from 'components/Title/Title';
 import { MySlider } from 'components/Slider/Slider';
-import { CategoryList } from 'components/CategoryList/CategoryList';
 
 const Home = () => {
   return (
     <HomeWrap>
       <MySlider />
-      <Title color="#3c3f44" fontSize="40px">
+      <Title $color="#3c3f44" $fontsize="32px">
         Автохімія, автокосметика, клея та герметики
       </Title>
-      <h2>Категорія товарів</h2>
-      <HomeContentWrap>
-        <CategoryList />
-      </HomeContentWrap>
+      <ParagraphsWrap>
+        <Paragraph>
+          Компанія «Autoflame» є майданчиком продажу оригінальної продукції торгових марок "Hi-Gear". "Doctor Wax",
+          "Done Deale", "StepUp", "Zipower". Ми пррпонуємо якісну продукцію виробництва USA.
+        </Paragraph>
+        <Paragraph>Ми пропонуємо якісну продукцію виробництва USA.</Paragraph>
+      </ParagraphsWrap>
     </HomeWrap>
   );
 };

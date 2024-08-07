@@ -30,10 +30,7 @@ export const MySlider = () => {
         const activeIndex = swiperInstance.activeIndex;
 
         bullets.forEach((bullet, index) => {
-          bullet.classList.remove(
-            'swiper-pagination-bullet-active',
-            'swiper-pagination-bullet-neighbor'
-          );
+          bullet.classList.remove('swiper-pagination-bullet-active', 'swiper-pagination-bullet-neighbor');
           if (index === activeIndex) {
             bullet.classList.add('swiper-pagination-bullet-active');
           } else if (index === activeIndex - 1 || index === activeIndex + 1) {
@@ -57,10 +54,14 @@ export const MySlider = () => {
         ref={swiperRef}
         spaceBetween={30}
         effect={'fade'}
+        fadeEffect={{
+          crossFade: true, // Робить перехід ще більш плавним
+        }}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
+        speed={1500} // Налаштовує швидкість анімації
         //navigation={true}
         /*      pagination={{
           dynamicBullets: true,

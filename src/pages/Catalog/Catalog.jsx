@@ -1,57 +1,22 @@
-import { Cards } from 'components/Cards/Cards';
-import React, { useEffect, useState } from 'react';
-import { CatalogForm } from 'components/CatalogForm/CatalogForm';
+import React from 'react';
 import { Title } from 'components/Title/Title';
-import { useSearchParams } from 'react-router-dom';
-import { selectedProduct, selectedWork } from 'helpers/catalogSelected';
+import { CategoryList } from 'components/CategoryList/CategoryList';
+import { HomeContentWrap, HomeWrap } from 'pages/Home/Home.styled';
+import { Subtitle } from 'components/Subtitle/Subtitle';
 
 const Catalog = () => {
-  const [data, setData] = useState([]);
-  const [params, setParams] = useSearchParams();
-
-  const work = params.get('work') ?? 'all';
-  const product = params.get('product') ?? 'all';
-
-  //  -----------------     function for MuiSelect -------------
-
-  const handleChangeWorksMui = e => {
-    params.set('work', e.target.value);
-    setParams(params);
-  };
-
-  // -----------------------------------------------------------------
-
-  //  -----------------     functions for ReactSelect -------------
-  const handleChangeWorks = e => {
-    params.set('work', e.value);
-    setParams(params);
-  };
-
-  const handleChangeProduct = e => {
-    params.set('product', e.value);
-    setParams(params);
-  };
-  // -----------------------------------------------------------------
-  useEffect(() => {
-    const typeWork = selectedWork(work);
-    const typeProduct = selectedProduct(typeWork, product);
-    setData(typeProduct);
-  }, [work, product]);
-
   return (
-    <>
-      <Title>Наша продукція</Title>
-      <CatalogForm
-        handleChangeWorks={handleChangeWorks}
-        handleChangeProduct={handleChangeProduct}
-        handleChangeWorksMui={handleChangeWorksMui}
-      />
-      {(data.length > 0 && <Cards data={data} />) || (
-        <Title color="green" margintop="150px">
-          Немає даних за вашим запитом!!!
-        </Title>
-      )}
-    </>
+    <HomeWrap>
+      <Title $color="#3c3f44" $fontsize="32px" $margintop="20px">
+        Автохімія, автокосметика, клея та герметики
+      </Title>
+      <Subtitle $color="#3c3f44" $fontsize="24px">
+        Категорія товарів:
+      </Subtitle>
+      <HomeContentWrap>
+        <CategoryList />
+      </HomeContentWrap>
+    </HomeWrap>
   );
 };
 

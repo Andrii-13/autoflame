@@ -27,7 +27,7 @@ export const Footer = () => {
       <Container>
         <FooterLocation>
           <div>
-            <p>Адреса: вул. Бориспільська 9, Київ, Україна</p>
+            <p>E-mail: autoflame@gmail.com</p>
           </div>
           <MapLocationBtn onClick={openModal}>
             <p>Подивитись на мапі</p>

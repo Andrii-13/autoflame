@@ -2,11 +2,6 @@ import styled from 'styled-components';
 
 export const HomeWrap = styled.section`
   position: relative;
-
-  h2 {
-    color: ${p => p.theme.colors.grayColor};
-    font-size: 18px;
-  }
 `;
 
 export const HomeContentWrap = styled.div`
@@ -14,4 +9,15 @@ export const HomeContentWrap = styled.div`
   flex-direction: column;
   gap: 20px;
   margin: 20px 0 20px 0;
+`;
+
+export const ParagraphsWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+`;
+
+export const Paragraph = styled.p`
+  //display: block;
+  text-indent: 20px;
 `;

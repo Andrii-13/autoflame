@@ -5,15 +5,17 @@ export const GlobalStyle = createGlobalStyle`
 
 /* ----------- basic properties ---------------- */
 
-
+html{
+  width: 100%;
+  overflow-x: hidden;
+}
    body {
         font-family: 'Verdana', sans-serif; //set main font from data/fonts and add link in main index.js
         font-size: 14px;
         line-height: 1.28;
         font-weight: 400;
-
-
-
+        width: 100%;
+        overflow-x: hidden;
          }
 
 /* ----------- basic properties ---------------- */
@@ -51,6 +53,7 @@ img {
 .root{
   display: flex;
   flex-direction: column;
+  width: 100%;
   min-height: 100vh;
 }
 
